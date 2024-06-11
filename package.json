@@ -18,8 +18,13 @@
     "outDir": "./dist",
     "rootDir": "./src"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/*.spec.ts"],
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -27,10 +32,12 @@
     "deepl-node": "^1.13.0",
     "dotenv": "^16.4.5",
     "install": "^0.13.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.13",
+    "@types/xmldom": "^0.1.34",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
